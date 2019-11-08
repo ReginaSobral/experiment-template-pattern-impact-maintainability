@@ -15,6 +15,16 @@ public class Pauta {
 		this.setTitulo("");
 		this.setDescricao("");
 	}
+        
+        
+        
+    public Pauta(int id, Ata ata, int ordem, String titulo, String descricao) {
+        this.setIdPauta(id);
+		this.setAta(ata);
+		this.setOrdem(ordem);
+		this.setTitulo(titulo);
+		this.setDescricao(descricao);
+    }
 	
 	public int getIdPauta() {
 		return idPauta;
